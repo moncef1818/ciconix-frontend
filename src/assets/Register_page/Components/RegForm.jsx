@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import './Reg_Form.css'
+import './Reg_form.css'
 
 const RegForm = () => {
   const [selectedPass, setSelectedPass] = useState(null);
