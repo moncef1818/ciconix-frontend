@@ -1,5 +1,5 @@
 import React from 'react'
-import './hero_sec.css'
+import './Hero_sec.css'
 
 const Hero_sec = () => {
   const scrollToRegister = () => {
