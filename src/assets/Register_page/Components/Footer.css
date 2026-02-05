@@ -1,0 +1,168 @@
+
+.footer {
+    position: relative;
+    background: rgba(36, 14, 16);
+    color: rgba(249, 228, 192, 1);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_content {
+    display: flex;
+    gap: 200px;
+    max-width: 1200px;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) ;
+    margin-bottom: 40px;
+}
+
+.footer_logo {
+    width: 300px;
+    height: 183px;
+    margin-left: -90px;
+}
+
+.contact_infos h3 {
+    font-family: 'Inter', sans-serif;
+    font-size:16.7px ;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgba(249, 228, 192, 1);
+}
+
+.contact_infos p {
+    font-family: 'Inter', sans-serif;
+    font-size:13.2px ;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.follow_us p {
+    font-family: 'Inter', sans-serif;
+    font-size:17.2px ;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgba(249, 228, 192, 1);
+    text-align: right;
+}
+
+.footer_p {
+    font-family: 'Inter', sans-serif;
+    font-size:12.9px ;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color:rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.cic_links {
+    display: flex;
+    gap: 30px;
+}
+
+.icon {
+    margin: 12px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+  /* mobile styles */
+
+.footer {
+    position: relative;
+    background: rgba(36, 14, 16);
+    color: rgba(249, 228, 192, 1);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2) ;
+    margin-bottom: 200px;
+    margin-left: 0px;
+}
+
+.footer_logo {
+    width: 200px;
+    height: 100px;
+    margin-left: 0px;
+}
+
+.contact_infos h3 {
+    font-family: 'Inter', sans-serif;
+    font-size:16.7px ;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: rgba(249, 228, 192, 1);
+}
+
+.contact_infos p {
+    font-family: 'Inter', sans-serif;
+    font-size:13.2px ;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.follow_us p {
+    font-family: 'Inter', sans-serif;
+    font-size:17.2px ;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    
+    color: rgba(249, 228, 192, 1);
+    margin-right: 55px;
+}
+
+.footer_p {
+    font-family: 'Inter', sans-serif;
+    font-size:12.9px ;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color:rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.cic_links {
+    display: flex;
+    gap: 30px;
+}
+
+.icon {
+    margin: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+}
