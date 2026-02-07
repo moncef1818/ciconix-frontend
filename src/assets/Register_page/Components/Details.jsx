@@ -118,12 +118,15 @@ const Details = () => {
            </div>
         </section>
 
+        {/* Updated Timeline Section based on Image Content */}
         <section className="timeline" >
             <div className="container">
                 <h2 className="section-title">CICONIX TimeLine</h2>
                 <p className="section-subtitle">Your journey through the quest</p>
                 <div className="timeline-container">
                     <div className="timeline-line"></div>
+                    
+                    {/* Day 01: Start */}
                     <div className="timeline-item left">
                         <div className="timeline-dot"></div>
                         <div className="timeline-card">
@@ -134,12 +137,18 @@ const Details = () => {
                                         <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
                                     </svg>
                                 </div>
-                                <h3 className="timeline-title">The Start</h3>
+                                <h3 className="timeline-title">Day 01 - The Kickoff</h3>
                             </div>
-                            <p className="timeline-date">Day 1 - 9:00 AM</p>
-                            <p className="timeline-desc">Opening ceremony,Project Ideation & Planning, and Initial Technical Workshop</p>
+                            <p className="timeline-date">02:00 PM - 05:00 PM</p>
+                            <ul className="timeline-list-items" style={{color: '#aaa', fontSize: '0.9rem', listStyle: 'none', paddingLeft: 0}}>
+                                <li>• Check-in & Registrations (02:00 PM)</li>
+                                <li>• Opening Ceremony (03:00 PM)</li>
+                                <li>• Challenge & Project Announcement (05:00 PM)</li>
+                            </ul>
                         </div>
                     </div>
+
+                    {/* Day 01 -> Day 02: Coding */}
                     <div className="timeline-item right">
                         <div className="timeline-dot"></div>
                         <div className="timeline-card">
@@ -150,12 +159,14 @@ const Details = () => {
                                         <polyline points="8 6 2 12 8 18"></polyline>
                                     </svg>
                                 </div>
-                                <h3 className="timeline-title">Build & Learn</h3>
+                                <h3 className="timeline-title">Development Phase</h3>
                             </div>
-                            <p className="timeline-date">Day 2</p>
-                            <p className="timeline-desc">Advanced Security Workshops, Mentor Office Hours, Mid-Event CT Competition, Project Development</p>
+                            <p className="timeline-date">Day 01 (05:00 PM) - Day 02 (05:00 PM)</p>
+                            <p className="timeline-desc">Continuous Development & coding. The development phase continues overnight until 05:00 PM on Day 02.</p>
                         </div>
                     </div>
+
+                    {/* Day 02: Evening */}
                     <div className="timeline-item left">
                         <div className="timeline-dot"></div>
                             <div className="timeline-card">
@@ -166,12 +177,18 @@ const Details = () => {
                                             <polyline points="14 2 14 8 20 8"></polyline>
                                         </svg>
                                     </div>
-                                    <h3 className="timeline-title">Evening Tech Talks</h3>
+                                    <h3 className="timeline-title">Presentations & Networking</h3>
                                 </div>
-                                <p className="timeline-date">Day 2 - 7:00 PM</p>
-                                <p className="timeline-desc">Evening tech talks led by industry experts and mentors.</p>
+                                <p className="timeline-date">Day 02: 05:00 PM - 10:00 PM</p>
+                                <ul className="timeline-list-items" style={{color: '#aaa', fontSize: '0.9rem', listStyle: 'none', paddingLeft: 0}}>
+                                    <li>• Development Phase Ends (05:00 PM)</li>
+                                    <li>• Project Presentations (05:00 PM - 08:00 PM)</li>
+                                    <li>• Networking & Fun Activities (08:00 PM - 10:00 PM)</li>
+                                </ul>
                             </div>
                         </div>
+
+                        {/* Day 02 -> Day 03: CTF */}
                         <div className="timeline-item right">
                             <div className="timeline-dot"></div>
                             <div className="timeline-card">
@@ -182,12 +199,14 @@ const Details = () => {
                                             <polyline points="12 6 12 12 16 14"></polyline>
                                         </svg>
                                     </div>
-                                    <h3 className="timeline-title">Final Submission & Workshops</h3>
+                                    <h3 className="timeline-title">CTF Competition</h3>
                                 </div>
-                                <p className="timeline-date">Day 3 - 11:00 AM</p>
-                                <p className="timeline-desc">Expert panel reviews all submissions</p>
+                                <p className="timeline-date">Day 02 (10:00 PM) - Day 03 (04:00 PM)</p>
+                                <p className="timeline-desc">The 18-hour CTF Competition begins at 10:00 PM on Day 02 and continues through the night until 04:00 PM on Day 03.</p>
                             </div>
                         </div>
+
+                        {/* Day 03: Closing */}
                         <div className="timeline-item left">
                             <div className="timeline-dot"></div>
                             <div className="timeline-card">
@@ -198,10 +217,10 @@ const Details = () => {
                                             <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
                                         </svg>
                                     </div>
-                                    <h3 className="timeline-title">Awards Ceremony& Closing</h3>
+                                    <h3 className="timeline-title">Grand Finale</h3>
                                 </div>
-                                <p className="timeline-date">Day 3 - 5:00 PM</p>
-                                <p className="timeline-desc">Winner announcements and celebration</p>
+                                <p className="timeline-date">Day 03 - 04:30 PM</p>
+                                <p className="timeline-desc">CTF Competition ends at 04:00 PM, followed by the Closing Ceremony.</p>
                             </div>
                     </div>
                 </div>
